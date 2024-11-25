@@ -14,6 +14,7 @@ public class App
         System.out.println(IsAnagram());
     }
 
+    @SuppressWarnings("unused")
     private static boolean DuplicateInteger() {
         int[] nums = {1, 2, 3, 4};
         int[] nums2 = {1, 2, 3, 3};
@@ -21,6 +22,7 @@ public class App
         return DuplicateInteger.hasDuplicate(nums2);
     }
 
+    @SuppressWarnings("unused")
     private static boolean IsAnagram() {
         String testA1 = "racecar";
         String testB1 = "carrace";

@@ -2,9 +2,7 @@ package com.fagomes.challenges;
 
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class IsAnagram {
     public static boolean isAnagram(String s, String t) {
